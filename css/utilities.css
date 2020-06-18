@@ -1,0 +1,37 @@
+
+/*utilities*/
+
+.container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 1rem;
+    overflow: hidden;
+}
+/*Hambruger menu*/
+.burger div{
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 2px;
+  }
+#home-page,h2 ,p, h3{
+    text-align: center;
+    padding: 1rem;
+}
+.card{
+    background: white;
+    padding: 1rem;
+}
+.p-heading{
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+.team-container{
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+  
+/*All section should have the same class name so that i can add margin at the top and bottom*/
